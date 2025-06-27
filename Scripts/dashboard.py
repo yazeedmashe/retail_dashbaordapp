@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Retail Dashboard", layout="wide")
 
 # Load data
-db = sqlite3.connect(r"C:\Users\Admin\Desktop\RetailAnalyticsProject\Database\retail_analytics.db")
+db = sqlite3.connect(r"Database/retail_analytics.db")
 df = pd.read_sql('SELECT * FROM cleaned_data', db)
 
 # Sidebar - Filters
