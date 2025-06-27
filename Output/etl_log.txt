@@ -1,0 +1,13 @@
+ETL Job Started : 2025-06-27 16:14:15.169811
+raw data has been extracted....
+from Data/product_catalog.csv 11 rows has been extracted
+from Data/sales_data.csv 500 rows has been extracted
+from Data/store_data.csv 5 rows has been extracted
+Extract step was executed and completed at 2025-06-27 16:14:15.175794
+raw datasets are being cleaned....
+from Data/product_catalog.csv after cleaning 11 rows remain
+from Data/sales_data.csv after cleaning 500 rows remian
+from Data/store_data.csv after cleaning 5 rows remain
+This step was exectuted and completed at 2025-06-27 16:14:15.178786Datasets were merged, step was executed and completed at 2025-06-27 16:14:15.180780Transform Step was exected and completed at 2025-06-27 16:14:15.197737
+Datasets was summarized at 2025-06-27 16:14:15.199730
+Datasets were loaded to the database
